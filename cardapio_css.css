@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+header {
+    width: 100%;
+    height: 7vh;
+    background-color: transparent;
+}
+
+.menu {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu #logo {
+    float: left;
+    height: 40px;
+    width: 250px;
+}
+
+.menu .menu_items {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    text-decoration: none;
+    color: #B52b19;
+    padding: 1.5rem;
+}
+
+.menu .menu_items a {
+    text-decoration: none;
+    color: #B52b19;
+    padding: 1.5rem;
+}
+
+.menu #search {
+    background-color: white;
+    border: solid 1px #B52b19;
+    border-radius: 20px;  
+    width: 216px;
+    height: 30px;
+    left: 865px;
+    top: 33px;  
+}
+
+.menu #search img {
+    float: right;
+}
+
+.title-pag {
+    font-family: "Orelega One", serif;
+    color: #B52b19;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.title-pag hr {
+    border: 2px solid #B52b19;
+}
+.restaurant img{
+    max-width: 95%;
+    margin-top: 10px;
+}
+
+.restaurant .text a{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Orelega One', serif;
+    color: #B52b19;
+    font-weight: 200;
+}
+
+.restaurant p {
+    color: #565151;
+    font-weight: bold;
+}
+
+.restaurant .cupom {
+    height: 25px;
+    width: 250px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #B2ECC8;
+    border-radius: 10px;
+    margin-left: 45px;
+}
+.title-pag hr {
+    border: 2px solid #B52b19;
+}
+.pratos{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0, 0.2);
+    height: 350px;
+    width: 500px;
+    margin: 10px;
+    background-color: #FEF4EE;
+}
+.pratos img{  
+    height: 275px;
+    width: 430px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    width: 93%;
+    padding-top: 15px;
+    font-style: bold;
+    font-size: 25px;
+}
+.prato1 p{
+    
+    font-family: "Montserrat", sans-serif;
+}
+
+.text span{
+    font-size:15px; 
+}
+.pagina{
+    display: flex;
+    justify-content: space-around;
+}
+
